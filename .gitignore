@@ -1,0 +1,61 @@
+# ==========================================
+# Python & Flask
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.elc
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.cache/
+.pytest_cache/
+.mypy_cache/
+instance/
+.webassets-cache
+
+# ==========================================
+# Vue & Node (Frontend)
+# ==========================================
+node_modules/
+/dist/
+/target/
+*.local
+.eslintcache
+.stylelintcache
+.node_repl_history
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# ==========================================
+# SQLite (Databases)
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# Redis (Cache & Dumps)
+# ==========================================
+*.rdb
+*.aof
+
+# ==========================================
+# Operating System & Editors
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
