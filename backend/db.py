@@ -1,6 +1,6 @@
 import sqlite3
 from werkzeug.security import generate_password_hash
-from backend.models import create_all_tables
+from models import create_all_tables
 
 DATABASE = 'placement_portal.db'
 
